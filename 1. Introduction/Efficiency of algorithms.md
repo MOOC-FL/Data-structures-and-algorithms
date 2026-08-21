@@ -17,6 +17,17 @@ def max_diff(numbers):
     return numbers[-1] - numbers[0]
 
 ```
+- The idea of the second algorithm is that the biggest difference must be between the smallest number and the largest number on the list.
+- The algorithm first sorts the list using the sorted function. Then the smallest number is in the beginning (index 0) and the largest is at the end (index -1) of the list.
+```py
+def max_diff(numbers):
+    return max(numbers) - min(numbers)
+
+```
+- The third algorithm is based on finding the smallest and largest numbers too, but instead of sorting, it uses the functions min and max.
+
+
+
 
 
 
